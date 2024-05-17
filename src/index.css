@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +8,55 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-weight: 100rem;
+  font-size: 1.5rem;
+}
+
+h1,
+h3,
+h4 {
+  font-family: 'Markazi Text', serif;
+}
+
+p,
+a {
+  font-size: 1rem;
+  font-family: 'Karla', sans-serif;
+}
+
+.yellow-button {
+  background-color: #f4ce14;
+  border: none;
+  border-radius: 1rem;
+  color: #495e57;
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  padding: 1rem;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.yellow-button:hover {
+  background-color: #495e57;
+  border: solid;
+  border-color: #f4ce14;
+  color: #f4ce14;
+}
+
+span {
+  font-weight: bold;
+  font-family: 'Karla', sans-serif;
 }

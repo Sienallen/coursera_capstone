@@ -1,0 +1,32 @@
+footer {
+  background-color: #495e57;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  height: auto;
+}
+
+footer li {
+  list-style-type: none;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer img {
+  height: 12rem;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  column-gap: 2rem;
+  height: 100%;
+  background-color: aqua;
+  align-content: space-evenly;
+}

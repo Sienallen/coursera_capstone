@@ -1,0 +1,30 @@
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.navList li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navList a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 700px) {
+  .navList li {
+    padding: 0px 10px;
+  }
+
+  .navList a {
+    color: black;
+    text-decoration: none;
+    font-size: x-small;
+  }
+}

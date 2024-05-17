@@ -1,0 +1,48 @@
+.about {
+  margin-top: 2.5rem;
+  display: flex;
+  max-width: 60rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+.description {
+  flex-basis: 48%;
+}
+
+.photos {
+  flex-basis: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.about p {
+  color: black;
+  margin-top: 1rem;
+}
+
+.about h1 {
+  color: #f4ce14;
+  margin-bottom: -1rem;
+}
+
+.photos img {
+  height: 15rem;
+  width: 80%;
+  border-radius: 1rem;
+}
+
+#MA1 {
+  margin-right: -3rem;
+  z-index: 2;
+}
+
+#MA2 {
+  z-index: 1;
+  margin-top: -3rem;
+  margin-right: 3rem;
+}

@@ -1,0 +1,36 @@
+.pfp {
+  margin-top: 1rem;
+  height: auto;
+  width: 50%;
+  border-radius: 5rem;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating-card {
+  background-color: #edefee;
+  border-radius: 1rem;
+  overflow: hidden;
+  min-height: 25rem;
+  grid-row: 2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  grid-column: auto;
+  max-width: 18rem;
+  margin-bottom: 1rem;
+}
+
+.comment {
+  margin-top: 1rem;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.comment p {
+  color: black;
+}
