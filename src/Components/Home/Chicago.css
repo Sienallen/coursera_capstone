@@ -37,12 +37,11 @@
 }
 
 #MA1 {
-  margin-right: -3rem;
   z-index: 2;
 }
 
 #MA2 {
   z-index: 1;
   margin-top: -3rem;
-  margin-right: 3rem;
+  margin-right: 4rem;
 }

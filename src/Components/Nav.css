@@ -1,27 +1,32 @@
 .navBar {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  padding-top: 15px;
-  padding-bottom: 25px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+}
+.navBar img {
+  margin: 1rem;
 }
 
 .navList li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 1rem 2rem;
 }
 
-.navList a {
+.navList li a {
   color: black;
   text-decoration: none;
   font-weight: bold;
   padding: 0.5rem;
+  border-radius: 0.75rem;
 }
 
 .navList a:hover {
   background-color: #f4ce14;
-  padding: 0.5rem;
-  border-radius: 1rem;
+  border-radius: 0.75rem;
 }
 
 .active {
@@ -29,14 +34,41 @@
   border-radius: 1rem;
 }
 
+.burger {
+  display: none;
+  position: absolute;
+  top: 0.5rem;
+  right: 1.5rem;
+}
+
 @media only screen and (max-width: 700px) {
-  .navList li {
-    padding: 0px 10px;
+  .burger {
+    display: block;
   }
 
-  .navList li link {
-    color: black;
-    text-decoration: none;
-    font-size: x-small;
+  .navBar {
+    flex-direction: column;
+  }
+
+  .navList {
+    display: none;
+
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navList.open {
+    display: flex;
+  }
+
+  .navList li {
+    text-align: center;
+  }
+
+  .navList li a {
+    margin: 0.2rem 0.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    /* background-color: aqua; */
   }
 }

@@ -1,0 +1,7 @@
+.in-progress {
+  display: flex;
+  color: #495e57;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}

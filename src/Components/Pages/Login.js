@@ -1,9 +1,10 @@
 import React from 'react'
+import InProgress from './InProgress'
 
 const Login = () => {
   return (
     <div>
-      In Progress
+      <InProgress/>
     </div>
   )
 }

@@ -2,8 +2,8 @@ import './App.css';
 import Nav from './Components/Nav'
 import Home from './Components/Home';
 import Footer from './Components/Footer';
-import BookingPage from './Components/BookingPage/BookingPage'
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import BookingPage from './Components/Pages/BookingPage'
+import {Route, Routes} from 'react-router-dom'
 import About from './Components/Pages/About';
 import Menu from './Components/Pages/Menu';
 import OrderOnline from './Components/Pages/OrderOnline';
