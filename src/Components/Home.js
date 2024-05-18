@@ -1,8 +1,9 @@
 import React from 'react'
-import Hero from './Hero'
-import Highlights from './Highlights'
-import Testimonials from './Testimonials'
-import About from './About'
+import Hero from './Home/Hero'
+import Highlights from './Home/Highlights'
+import Testimonials from './Home/Testimonials'
+import About from './Home/Chicago'
+import './Nav.css'
 
 
 const Home = () => {

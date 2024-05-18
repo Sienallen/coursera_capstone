@@ -1,4 +1,4 @@
-import './About.css'
+import './Chicago.css'
 import React from 'react'
 import M_A1 from  './assets/Mario and Adrian A.jpg'
 import M_A2 from './assets/Mario and Adrian b.jpg'

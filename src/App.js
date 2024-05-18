@@ -1,10 +1,13 @@
 import './App.css';
-import Header from './Components/Header';
-import Nav from './Components/Home/Nav';
-import Home from './Components/Home/Home';
+import Nav from './Components/Nav'
+import Home from './Components/Home';
 import Footer from './Components/Footer';
 import BookingPage from './Components/BookingPage/BookingPage'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import About from './Components/Pages/About';
+import Menu from './Components/Pages/Menu';
+import OrderOnline from './Components/Pages/OrderOnline';
+import Login from './Components/Pages/Login';
 
 function App() {
   return (
@@ -12,10 +15,12 @@ function App() {
       <Nav></Nav>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/Home' element={<Home/>}/>
+        <Route path='/About' element={<About/>}/>
+        <Route path='/Menu' element={<Menu/>}/>
         <Route path='/booking' element={<BookingPage/>}/>
+        <Route path='/OrderOnline' element={<OrderOnline/>}/>
+        <Route path='/Login' element={<Login/>}/>
       </Routes>
-
       <Footer></Footer>
 
     </>
