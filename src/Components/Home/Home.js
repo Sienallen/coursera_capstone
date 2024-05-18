@@ -5,7 +5,7 @@ import Testimonials from './Testimonials'
 import About from './About'
 
 
-const Main = () => {
+const Home = () => {
   return (
     <>
       <main>
@@ -18,4 +18,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Home

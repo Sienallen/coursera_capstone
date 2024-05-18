@@ -1,5 +1,6 @@
-import React from 'react'
-import Logo from './assets/Logo.svg'
+import React from 'react';
+import Logo from './assets/Logo.svg';
+import {Link} from 'react-router-dom';
 import "./Nav.css"
 
 const Nav = () => {
@@ -7,12 +8,12 @@ const Nav = () => {
     <div className='navBar'>
       <img src={Logo} alt='Logo' ></img>
       <ul className='navList'>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Menu</a></li>
-        <li><a href="">Reservations</a></li>
-        <li><a href="">Order Online</a></li>
-        <li><a href="">Login</a></li>
+        <li><Link to="./Home">Home</Link></li>
+        <li><Link to="./Home">About</Link></li>
+        <li><Link to="./Home">Menu</Link></li>
+        <li><Link to="./Home">Reservations</Link></li>
+        <li><Link to="./Home">Order Online</Link></li>
+        <li><Link to="./Home">Login</Link></li>
       </ul>
     </div>
   )
