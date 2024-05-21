@@ -12,27 +12,27 @@ const BookingPage = () => {
           <label for='name' className='booking-label'>
             <p>Name</p>
           </label>
-          <input type='input' name='name' id='name' className='booking-input'/>
+          <input type='input' name='name' id='name' className='booking-input' required/>
 
           <label for='phone' className='booking-label'>
             <p>Phone Number</p>
           </label>
-          <input type='number' name = 'phone' id='phone' className='booking-input'/>
+          <input type='number' name = 'phone' id='phone' className='booking-input' required/>
 
           <label for='party' className='booking-label'>
             <p>Number of guests</p>
           </label>
-          <input type ='number' name = 'party' id= 'party' className='booking-input'/>
+          <input type ='number' name = 'party' id= 'party' className='booking-input' required/>
 
           <label for = 'date' className='booking-label'>
             <p>Date</p>
           </label>
-          <input type='date' name='date' id='date' className='booking-input'/>
+          <input type='date' name='date' id='date' className='booking-input' required/>
 
           <label for='time' className='booking-label'>
             <p>Time</p>
           </label>
-          <select name='time' id='time' className='booking-input'>
+          <select name='time' id='time' className='booking-input' required>
             <option value='12:00pm'>12:00pm</option>
             <option value='1:00pm'>1:00pm</option>
             <option value='2:00pm'>2:00pm</option>
@@ -42,7 +42,7 @@ const BookingPage = () => {
 
           </select>
 
-          <button type='submit' className='yellow-button' >Make your reservation</button>
+          <button type='submit' className='yellow-button' onClick={()=>{alert('Thank you for your reservations!')} } >Make your reservation</button>
 
         </form>
 
